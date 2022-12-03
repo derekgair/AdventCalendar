@@ -9,7 +9,7 @@ public class Day3_1 {
 
     public static void main(String[] args) throws IOException {
 
-        InputStream resourceAsStream = Day3_1.class.getResourceAsStream("Day3.input");
+        InputStream resourceAsStream = Day3_1.class.getResourceAsStream("Day3.test2.input");
         BufferedReader in = new BufferedReader(new InputStreamReader(resourceAsStream));
         long score = 0;
         String line1,line2,line3;

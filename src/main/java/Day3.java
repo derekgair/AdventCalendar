@@ -2,16 +2,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 public class Day3 {
 
     public static void main(String[] args) throws IOException {
 
-        InputStream resourceAsStream = Day3.class.getResourceAsStream("Day3.input");
+        InputStream resourceAsStream = Day3.class.getResourceAsStream("Day3.test2.input");
         BufferedReader in = new BufferedReader(new InputStreamReader(resourceAsStream));
         long score = 0;
         String line;
